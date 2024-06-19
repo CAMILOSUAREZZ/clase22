@@ -1,0 +1,21 @@
+*/* Estilo para bordes magenta en celdas */
+.table-bordered-magenta td {
+    border: 2px solid magenta;
+}
+
+/* Estilo para cambio de color al pasar el mouse */
+.table-striped tbody tr:hover {
+    background-color: #2236f1; /* Cambia el color al pasar el mouse */
+}
+
+/* Estilo para cursor de puntero al pasar sobre celdas */
+.table-striped tbody tr:hover td {
+    cursor: pointer;
+}
+
+/* Ajuste de tamaño uniforme para imágenes del carousel */
+.carousel-item img {
+    height: 300px; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Ajusta la forma en que se muestra la imagen */
+}
+
